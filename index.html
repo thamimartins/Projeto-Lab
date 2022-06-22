@@ -10,7 +10,6 @@
 <body>
   <main>
     <section>
- <!--A tag <  div > serve para alterar o estilo em partes específicas da página e posicionar objetos-->
       <div class="titulo"> 
         <h1>Questionário esportivo</h1>
       </div>
@@ -25,13 +24,10 @@
                 <div class="form-1">
                     <form class="pergunta-1">
                         <h2>Qual a maior nadadora do mundo?</h2>
-<!--Label é a legenda do botão e o input é usado para criar controles interativos, no caso, criar nosso botão-->                     
                         <div class="input-1-1"><input id="resposta-1-1" type="radio" name="radio-questao-1" value="JennyThompson"><label for="resposta-1-1">Jenny Thompson</label></div>
-<!--O value é a informação que será enviado pro servidor-->                 
                       <div class="input-1-2"><input id="resposta-1-2" type="radio" name="radio-questao-1" value="KatinkaHosszú"><label for="resposta-1-2">Katinka Hosszú</label></div>
                       <div class="input-1-3"><input id="resposta-1-3" type="radio" name="radio-questao-1" value="KatieLedecky"><label for="resposta-1-3">Katie Ledecky</label></div>
 <br>
-<!-- onclick executa determinada funcionalidade quando um botão é clicado-->
 <input class="input-submit" type="submit" value="Responder e ver resultado" onclick="perguntaUm()">
                     </form>
                 </div>
@@ -41,7 +37,6 @@
                         <h2>Qual dessas jogadoras de futebol é a melhor do Brasil?</h2>
                         <div class="input-2-1"><input id="resposta-2-1" type="radio" name="radio-questao-2" value="AndressaAlves"><label for="resposta-2-1">Andressa Alves</label></div>
                         <div class="input-2-2"><input id="resposta-2-2" type="radio" name="radio-questao-2" value="MartaVieradaSilva"><label for="resposta-2-2">Marta Vieira da Silva</label></div>
- <!--o for tem que apontar para o ID do input, fazendo link entre a label e o input-->                     
                         <div class="input-2-3"><input id="resposta-2-3" type="radio" name="radio-questao-2" value="TamiresCássia"><label for="resposta-2-3">Tamires Cássia</label></div>
                         <br>
                         <input class="input-submit" type="submit" value="Responder e ver resultado" onclick="perguntaDois()">
